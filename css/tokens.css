@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../assets/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../assets/fonts/hanken-grotesk-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --ink: #25120a;
+  --brown: #3a1a07;
+  --orange: #fc8505;
+  --white: #ffffff;
+  --white-dim: rgb(255 255 255 / 0.74);
+  --brown-dim: rgb(58 26 7 / 0.78);
+
+  --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --max: 1400px;
+  --section-y: clamp(5rem, 11vw, 10rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --stitch: 1.5px dashed currentColor;
+}
